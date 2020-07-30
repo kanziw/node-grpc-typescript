@@ -1,7 +1,7 @@
 .vscode
 .DS_Store
 /dist/
-
+.idea/
 
 # Logs
 logs

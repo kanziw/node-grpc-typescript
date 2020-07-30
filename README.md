@@ -24,12 +24,10 @@ $ npm start
 # 1. Request
 $ npm run client #= node dist/client
 # 2. with Parameter
-$ npm run client blahblahblah
+$ npm run client name [nickname]
 # 3. Error
 $ npm run client error
-# 4. Stream
-$ npm run client stream
-# 5. Health Check
+# 4. Health Check
 $ npm run health
 ```
 

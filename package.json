@@ -6,9 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "lint": "eslint --ext .ts .",
-    "build": "rimraf dist && tsc",
-    "build:proto": "node bin/proto",
-    "prestart": "npm run lint && npm run build",
+    "build": "npm run lint && rimraf dist && tsc",
+    "build:proto": "rimraf models && mkdir -p models && node bin/proto",
     "start": "node dist/server",
     "client": "node dist/client",
     "health": "node dist/health"
